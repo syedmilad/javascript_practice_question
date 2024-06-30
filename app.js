@@ -200,3 +200,27 @@
 // });
 
 // console.log(result); // Output: true
+
+// console.log("Hello World!");
+
+// Write a function that takes an array of numbers as argument. Return the number of negative values in the array.
+
+// function negativeNumberOfArray(array){
+//     return array.filter((item) => {
+//       return  item < 0
+//     }).length
+// }
+
+// const array = [1,24,5,5,6,7.-3,-2,-4,-5];
+// console.log(negativeNumberOfArray(array));
+
+// Write a function that takes an array of strings as argument. Sort the array elements alphabetically. Return the result.
+
+// function sortArrayElement(array){
+//     return array.sort()
+// }
+// const array = ['b', 'c', 'd', 'a']
+// console.log(sortArrayElement(array));
+
+// Make own sort method
+
