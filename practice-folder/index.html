@@ -3,66 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator</title>
+    <title>calculator app</title>
     <style>
-
         body{
             width: 100vw;
             height: 100vh;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
         }
         .container{
-            background-color: salmon;
-            width: 15rem;
-            height: 25rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            align-items: center;
+            border: 1px solid red;
+            width: 200px;
+            height: 50%;
         }
         input{
-            margin-top: 21px;
-        }
-        .cal{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        .cal div{
-            text-align: center;
-            width: 40px;
-            height: 40px;
-            background-color: whitesmoke;
+            width:85%;
             margin: 12px;
-            border: none;
-            border-radius: 100%;
+        }
+        .btn-container{
             display: flex;
-            justify-content: center;
-            align-items: center;
-            
+           justify-content: center;
+           flex-wrap: wrap;
+        }
+        button{
+            width: 45px;
+            height: 45px;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <input type="text">
-        <div class="cal">
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            <div>box 1</div>
-            
+        <input type="text" class="input" id="input" value="">
+        <div class="btn-container">
+            <button>C</button>
+            <button>1</button>
+            <button>2</button>
+
+            <button>C</button>
+            <button>1</button>
+            <button>2</button>
+
+            <button>C</button>
+            <button>1</button>
+            <button>2</button>
+
+            <button>C</button>
+            <button>1</button>
+            <button>2</button>
+
+            <button>1</button>
+            <button>2</button>
         </div>
     </div>
+
+    <script>
+
+        
+    </script>
 </body>
 </html>
