@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javscript Practice Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        
+    <button onclick="dynamicRun('add',1)">Add to bag</button>
+    <button onclick="dynamicRun('sub',1)">move to watchlist</button>
+    <button onclick="dynamicRun('two',4)">add 1 + 1</button>
+
+    <p id="cart"></p>
+
+    <script>
+        let cartQuantity = 0;
+
+        document.querySelector("#cart").innerHTML = `Your items is ${cartQuantity += payload = 0}`
+
+      function dynamicRun(math,number = 0) {
+        if(math === "add"){
+            document.querySelector("#cart").innerHTML = `Your items is ${cartQuantity += number}`
+        }else if(math === "sub"){
+            document.querySelector("#cart").innerHTML = `Your items is ${cartQuantity -= number}`
+        }else if(math === "two"){
+             document.querySelector("#cart").innerHTML = `Your items is ${cartQuantity += number}`
+        }
+      }
+
+    </script>
+</body>
+</html>

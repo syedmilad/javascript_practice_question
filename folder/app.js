@@ -247,3 +247,21 @@
 // }
 
 // console.log(twoSumOfArray(nums,target));
+
+// var romanToInt = function (s) {
+//     let romanVal = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+//     let result = 0;
+//     if (s === '') return;
+//     let inputs = Array.of(...s);
+//     let inputsVal = [];
+//     inputs.map((e) => ((e = romanVal[e]), inputsVal.push(e)));
+//     for (let i = 0; i < inputsVal.length; i++) {
+//         inputsVal[i] < inputsVal[i + 1]
+//             ? (result -= inputsVal[i])
+//             : (result += inputsVal[i]);
+//     }
+//     return result;
+// };
+
+// console.log(romanToInt('III'));
+
