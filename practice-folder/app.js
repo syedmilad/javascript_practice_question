@@ -50,3 +50,15 @@ function isChangeSelected(list) {
 
 const result = isChangeSelected()
 console.log(result)
+
+function push(newObj) {
+    return {
+        ...scannerData,
+        [scannerData.length+1]: newObj
+    }
+}
+
+console.log(push({name:"milad",age: "1232"}))
+console.log(push({name:"faiz",age: "1232"}))
+console.log(scannerData.length)
+
